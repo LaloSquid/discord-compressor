@@ -1,0 +1,1 @@
+ffmpeg -i peter.mkv -c:v libx265 -t 60 -pix_fmt yuv420p -b:v 1536k -preset veryfast -g 300 -r 30 -an -s 1920x1080 -x265-params pass=2 peter-1536k-veryfast-1080p30.mp4
