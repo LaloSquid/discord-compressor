@@ -5,9 +5,10 @@ Low motion "screen like" or "talking head", 10-15fps
 1080p: 448k
 720p: 288k
 480p: 198k
-360p: 64k
-240p: 32k
+360p: 128k
+240p: 80k
+144p: 79k or less
 
 
 Medium motion, 24-30fps
-1080p:
+1080p: 1536 WAS NOT ENOUGH
