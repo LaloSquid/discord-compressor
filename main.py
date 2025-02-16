@@ -96,7 +96,7 @@ def ask_preset() -> str:
     while True:
         try:
             entered_number = int(input())
-            if entered_number < 1 or entered_number > 10:
+            if entered_number < 0 or entered_number > 9:
                 print("Invalid input. Please enter an integer from 0 to 9")
             else:
                 break
