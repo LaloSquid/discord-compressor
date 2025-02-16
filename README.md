@@ -22,6 +22,14 @@ Where <input.mp4> is the file path of the video you want to compress (drag and d
 If you don't move or rename the output file, it will be overwritten next time the program runs!
 
 # Report mistakes and errors!
-If you think you have found and error/bug or something else is bothering you about the program, feel free to reach out or open an issue! (If opening issues is possible, I'm still new to github)
+If you think you have found an error/bug or something else is bothering you about the program, feel free to reach out or open an issue! (If opening issues is possible, I'm still new to github)
 
-
+# Project goals
+* Short term goals
+  * Clean up temp files after running
+  * Output file in same directory as source, with a unique name
+  * UX improvements
+  * Clean up terminal prints, but keep the ffmpeg status bar
+  * Build the program as an EXE and bundle in a custom barebones FFmpeg build
+* Long term goals
+  * Create a simple and user friendly GUI
